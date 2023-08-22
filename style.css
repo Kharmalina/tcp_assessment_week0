@@ -1,0 +1,53 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#header {
+    text-align: center;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: center;
+    /* box-sizing: border-box; */
+}
+
+.red {
+    height: 15rem;
+    width: 15rem;
+    border: 0.2rem solid green;
+    background-color: red;
+    margin-right: 2rem;
+}
+
+.blue {
+    height: 15rem;
+    width: 15rem;
+    border: 0.2rem dashed yellow;
+    background-color: blue;
+    margin-right: 2rem;
+}
+
+.green {
+    height: 15rem;
+    width: 15rem;
+    border: 0.2rem solid purple;
+    background-color: yellowgreen;
+}
+
+.buttons {
+    width: 12.3rem;
+    margin-right: .5rem;
+    font-size: 1.35rem;
+    background-color: rgb(213, 213, 213);
+}
+
+.btn-1 {
+    margin-left: .4rem;
+}
+
+.btn-2 {
+    /* width: 12rem; */
+    margin-right: 26.2rem;
+    margin-left: .3rem;
+}
