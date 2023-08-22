@@ -3,8 +3,8 @@
 }
 
 body {
-    margin-left: 25rem;
-    margin-right: 25rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 #header {
@@ -49,60 +49,10 @@ body {
     margin-left: .3rem;
 }
 
-.flexbox-2 {
-    display: flex;
-    justify-content: space-between;
+.btn-5 {
+    margin-right: 0.4rem;
 }
 
 .btn-6 {
-    margin-left: .3rem;
+    margin-left: 24.2rem;
 }
-.btn-5, .btn-6 {
-    width: 11.3rem;
-}
-
-
-
-/* .flexbox {
-    display: flex;
-    justify-content: center;
-}
-
-.red {
-    height: 15rem;
-    width: 15rem;
-    border: 0.2rem solid green;
-    background-color: red;
-    margin-right: 2rem;
-}
-
-.blue {
-    height: 15rem;
-    width: 15rem;
-    border: 0.2rem dashed yellow;
-    background-color: blue;
-    margin-right: 2rem;
-}
-
-.green {
-    height: 15rem;
-    width: 15rem;
-    border: 0.2rem solid purple;
-    background-color: yellowgreen;
-}
-
-.buttons {
-    width: 12.3rem;
-    margin-right: .5rem;
-    font-size: 1.35rem;
-    background-color: rgb(213, 213, 213);
-}
-
-.btn-1 {
-    margin-left: .4rem;
-}
-
-.btn-2 {
-    margin-right: 26.2rem;
-    margin-left: .3rem;
-} */

@@ -36,13 +36,13 @@ function changeColorsAndBorderStyle(boxId) {
 function toggleBoxVisibility(boxId) {
     let box = document.getElementById(boxId);
     // Toggle the display property between 'block' and 'none'
-    box.style.display = "none";
+    box.style.visibility = "hidden";
   }
 
   function toggleAllBoxes() {
     let boxes = document.querySelectorAll(".box");
     boxes.forEach(function(box) {
       // Toggle the display property of each box
-      box.style.display = "none"
+      box.style.visibility = "hidden"
     });
   }
