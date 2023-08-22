@@ -46,3 +46,34 @@ function toggleBoxVisibility(boxId) {
       box.style.visibility = "hidden"
     });
   }
+
+// Reset Colors button
+
+  function resetColors() {
+    var box1 = document.getElementById("box-1");
+    let box2 = document.getElementById("box-2");
+    let box3 = document.getElementById("box-3");
+
+    // Reset the CSS properties for each box to their default values
+    box1.style.borderColor = "green"
+    box1.style.backgroundColor = "red"
+    box1.style.borderStyle = "solid"
+
+    box2.style.borderColor = "yellow"
+    box2.style.backgroundColor = "blue"
+    box2.style.borderStyle = "dashed"
+
+    box3.style.borderColor = "purple"
+    box3.style.backgroundColor = "yellowgreen"
+    box3.style.borderStyle = "solid"
+  }
+
+//   Show All button
+
+function showAllBoxes() {
+    let boxes = document.querySelectorAll(".box");
+    boxes.forEach(function(box) {
+      // Toggle the display property of each box
+      box.style.visibility = "visible"
+    });
+}
