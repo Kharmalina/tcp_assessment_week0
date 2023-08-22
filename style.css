@@ -2,6 +2,11 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+body {
+    margin-left: 25rem;
+    margin-right: 25rem;
+}
+
 #header {
     text-align: center;
 }
@@ -9,7 +14,58 @@
 .flexbox {
     display: flex;
     justify-content: center;
-    /* box-sizing: border-box; */
+}
+
+.red {
+    height: 10rem;
+    width: 15rem;
+    border: 0.2rem solid green;
+    background-color: red;
+    margin-right: 1rem;
+}
+
+.blue {
+    height: 10rem;
+    width: 15rem;
+    border: 0.2rem dashed yellow;
+    background-color: blue;
+    margin-right: 1rem;
+}
+
+.green {
+    height: 10rem;
+    width: 15rem;
+    border: 0.2rem solid purple;
+    background-color: yellowgreen;
+}
+
+.buttons {
+    width: 11.9rem;
+    background-color: rgb(213, 213, 213);
+    cursor: pointer;
+}
+
+.btn-2, .btn-3, .btn-4 {
+    margin-left: .3rem;
+}
+
+.flexbox-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-6 {
+    margin-left: .3rem;
+}
+.btn-5, .btn-6 {
+    width: 11.3rem;
+}
+
+
+
+/* .flexbox {
+    display: flex;
+    justify-content: center;
 }
 
 .red {
@@ -47,7 +103,6 @@
 }
 
 .btn-2 {
-    /* width: 12rem; */
     margin-right: 26.2rem;
     margin-left: .3rem;
-}
+} */

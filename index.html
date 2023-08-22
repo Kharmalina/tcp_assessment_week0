@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
     <title>TCP Week 0 Assesment</title>
 </head>
 <body>
@@ -13,33 +14,33 @@
             <br>
             <h1><u>Week 0 Class Work</u></h1>
         </header>
-        <section class="flexbox">
-            <div class = "red"></div>
-            <div class = "blue"></div>
-            <div class = "green"></div>    
+        <section  class="flexbox">
+            <div id="box-1" class="red box"></div>
+            <div id="box-2" class="blue box"></div>
+            <div id="box-3" class="green box"></div>    
         </section>
         <div  class="flexbox" >         
             <h2 style="color: green;"><u>Change Buttons</u></h2>
         </div>
         <section class="flexbox">
-            <button class="buttons btn-1">Change Box 1</button>
-            <button class="buttons">Change Box 2</button>
-            <button class="buttons">Change Box 3</button>
-            <button class="buttons">Change All</button>
+            <button class="buttons btn-1" onclick="changeColorsAndBorderStyle('box-1')">Change Box 1</button>
+            <button class="buttons btn-2" onclick="changeColorsAndBorderStyle('box-2')">Change Box 2</button>
+            <button class="buttons btn-3" onclick="changeColorsAndBorderStyle('box-3')">Change Box 3</button>
+            <button class="buttons btn-4" onclick="changeAllBoxes()">Change All</button>
         </section>
         <div  class="flexbox" >         
             <h5 style="color: red;"><u>Hide Buttons</u></h5>
         </div>
         <section class="flexbox">
-            <button class="buttons btn-1">Hide Box 1</button>
-            <button class="buttons">Hide Box 2</button>
-            <button class="buttons">Hide Box 3</button>
-            <button class="buttons">Hide All</button>
+            <button class="buttons btn-1" onclick="toggleBoxVisibility('box-1')">Hide Box 1</button>
+            <button class="buttons btn-2" onclick="toggleBoxVisibility('box-2')">Hide Box 2</button>
+            <button class="buttons btn-3" onclick="toggleBoxVisibility('box-3')">Hide Box 3</button>
+            <button class="buttons btn-4" onclick="toggleAllBoxes()">Hide All</button>
         </section>
         <br>
-        <section class="flexbox">
-            <button class="buttons btn-2">Reset Colors</button>
-            <button class="buttons">Show All</button>
+        <section class="flexbox-2">
+            <button class="buttons btn-5" onclick="location.reload()">Reset Colors</button>
+            <button class="buttons btn-6" onclick="location.reload()">Show All</button>
         </section>
     </main>
 </body>
