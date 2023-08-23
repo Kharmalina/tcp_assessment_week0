@@ -19,7 +19,7 @@ body {
 .red {
     height: 10rem;
     width: 15rem;
-    border: 0.2rem solid green;
+    border: 0.3rem solid green;
     background-color: red;
     margin-right: 1rem;
 }
@@ -27,7 +27,7 @@ body {
 .blue {
     height: 10rem;
     width: 15rem;
-    border: 0.2rem dashed yellow;
+    border: 0.3rem dashed yellow;
     background-color: blue;
     margin-right: 1rem;
 }
@@ -35,7 +35,7 @@ body {
 .green {
     height: 10rem;
     width: 15rem;
-    border: 0.2rem solid purple;
+    border: 0.3rem solid purple;
     background-color: yellowgreen;
 }
 
@@ -50,9 +50,11 @@ body {
 }
 
 .btn-5 {
-    margin-right: 0.4rem;
+    visibility: hidden;
+    margin-left: .3rem;
 }
 
 .btn-6 {
-    margin-left: 24.2rem;
+    visibility: hidden;
+    margin-left: .3rem;
 }
