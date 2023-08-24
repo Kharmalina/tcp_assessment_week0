@@ -6,6 +6,16 @@ function changeColorsAndBorderStyle(boxId) {
     let borderColor = getRandomColor();
     let backgroundColor = getRandomColor();
 
+    //  Generate a random color through a for loop
+    function getRandomColor() {
+        let letters = '0123456789ABCDEF';
+        let color = '#';
+        for (let i = 0; i < 6; i++) {
+          color += letters[Math.floor(Math.random() * 16)];
+        }
+        return color;
+      }
+
     // Generate a random border style
     let borderStyles = ["solid", "dotted", "dashed", "double", "groove", "ridge", "inset", "outset"];
     let randomBorderStyle = borderStyles[Math.floor(Math.random() * borderStyles.length)];
@@ -20,15 +30,6 @@ function changeColorsAndBorderStyle(boxId) {
     changeColorsAndBorderStyle("box-1")
     changeColorsAndBorderStyle("box-2")
     changeColorsAndBorderStyle("box-3")
-  }
-
-  function getRandomColor() {
-    let letters = '0123456789ABCDEF';
-    let color = '#';
-    for (let i = 0; i < 6; i++) {
-      color += letters[Math.floor(Math.random() * 16)];
-    }
-    return color;
   }
 
 // Hide Boxes
