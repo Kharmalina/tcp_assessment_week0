@@ -63,7 +63,7 @@ function toggleBoxVisibility(boxId) {
     box2.style.backgroundColor = "blue"
     box2.style.borderStyle = "dashed"
 
-    box3.style.borderColor = "purple"
+    box3.style.borderColor = "#D763FF"
     box3.style.backgroundColor = "yellowgreen"
     box3.style.borderStyle = "solid"
   }
