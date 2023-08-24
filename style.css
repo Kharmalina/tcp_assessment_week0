@@ -43,6 +43,9 @@ body {
 .buttons {
     width: 11.9rem;
     background-color: rgb(213, 213, 213);
+    font-size: 1.4rem;
+    padding-top: .4rem;
+    padding-bottom: .4rem;
     cursor: pointer;
     border: none
 }
