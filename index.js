@@ -7,7 +7,7 @@ function changeColorsAndBorderStyle(boxId) {
     let backgroundColor = getRandomColor();
 
     // Generate a random border style
-    let borderStyles = ["solid", "dotted", "dashed", "double", "groove", "ridge", "inset", "outset", "none", "hidden"];
+    let borderStyles = ["solid", "dotted", "dashed", "double", "groove", "ridge", "inset", "outset"];
     let randomBorderStyle = borderStyles[Math.floor(Math.random() * borderStyles.length)];
 
     // Set the CSS styles for the div
