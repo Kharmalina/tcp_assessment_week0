@@ -55,7 +55,7 @@ function toggleBoxVisibility(boxId) {
     let box3 = document.getElementById("box-3");
 
     // Reset the CSS properties for each box to their default values
-    box1.style.borderColor = "green"
+    box1.style.borderColor = "black"
     box1.style.backgroundColor = "red"
     box1.style.borderStyle = "solid"
 

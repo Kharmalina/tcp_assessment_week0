@@ -19,7 +19,7 @@ body {
 .red {
     height: 10rem;
     width: 15rem;
-    border: 0.3rem solid green;
+    border: 0.3rem solid rgb(0, 0, 0);
     background-color: red;
     margin-right: 1rem;
 }
@@ -43,6 +43,7 @@ body {
     width: 11.9rem;
     background-color: rgb(213, 213, 213);
     cursor: pointer;
+    border: none
 }
 
 .btn-2, .btn-3, .btn-4 {
